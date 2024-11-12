@@ -20,6 +20,7 @@ EDA 프로젝트 3조 영끌방지대책위원회
 </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;김종호 (발표, 인구분야 자료조사, 분석 및 시각화)
 </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;윤희태 (부동산분야 자료조사, 분석 및 시각화)
 </br>
+
 |역할|이름|담당|
 |-:|:-|:-|
 |팀장|김소영|DB설계, 교통의료분야 자료조사, 분석 및 시각화|
@@ -34,8 +35,8 @@ EDA 프로젝트 3조 영끌방지대책위원회
 
 |분류|기술|
 |-|-|
-||<img src = "https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"><img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/Python-Dark.svg" width="50"> <img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/Selenium.svg" width = "50"> <img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/VSCode-Dark.svg" width = "50">|
-|DB|<img src = "https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"><img src = "https://img.shields.io/badge/amazonaws-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"><img src ="https://github.com/tandpfun/skill-icons/raw/main/icons/AWS-Dark.svg" width = "50"><img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/MySQL-Dark.svg" width = "50"> |
+||<img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/Python-Dark.svg" width="50"> <img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/Selenium.svg" width = "50"> <img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/VSCode-Dark.svg" width = "50">|
+|DB|<img src ="https://github.com/tandpfun/skill-icons/raw/main/icons/AWS-Dark.svg" width = "50"><img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/MySQL-Dark.svg" width = "50"> |
 |협업|<img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/Figma-Dark.svg" width = "50"><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png" width = "50">|
 </br></br></br>
 
