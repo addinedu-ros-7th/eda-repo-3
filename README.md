@@ -23,9 +23,16 @@ EDA 프로젝트 3조 영끌방지대책위원회
 
 
 ### 04-1. 부동산 분야
-* 분야 : [이름](url)
-  * 간단 설명
-  * 
+* **(크롤링) 아파트 매매 수급 동향 2014-2024, 월별 아파트 평균 매매가 2014-2024** : [한국부동산원 R-ONE](https://www.reb.or.kr/r-one/portal/stat/easyStatPage.do)
+  * 수도권 및 지방권 월별 아파트 매매에 대한 수급 지수
+  * 수도권 및 지방권 월별 아파트 매매가에 대한 평균값
+* **(크롤링) 서울시 동별 연도별 아파트 평균 매매가 2014-2024, 가락동 아파트별 매매가 2014-2024** : [서울시 부동산 정보 광장](https://land.seoul.go.kr:444/land/rtms/rtmsApartment.do)
+  * 서울시 모든 동의 연도별 아파트 매매가에 대한 평균값
+  * 서울시 송파구 가락동에서 10년 동안 매매된 모든 아파트들에 대한 매매가
+* **(표) 연도별 대한민국 물가 상승률 2014-2024** : [KOSIS](https://kosis.kr/statisticsList/statisticsListIndex.do?vwcd=MT_ZTITLE&menuId=M_01_01)
+  * 아파트 가격 상승률과 비교하기 위한 물가 상승률
+ 
+
 ### 04-2. 인구 분야
 * 시군구별 이동건수 : [KOSIS](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B26007&vw_cd=MT_ZTITLE)
   * 가구 크기별 시도간 전입 수
@@ -33,6 +40,8 @@ EDA 프로젝트 3조 영끌방지대책위원회
   * 전입 사유별 시도간 전입 수
 * 서울시 동단위 이동 건수 : [서울시 열린 데이터 광장](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B26B21&vw_cd=MT_ZTITLE)
   * 동단위 서울시 인구 이동 통계
+
+
 ### 04-3. 교육 분야
 * 서울시 사업체현황 : [서울시 열린데이터 광장](https://data.seoul.go.kr/dataList/104/S/2/datasetView.do)
   * 지역별 사교육 업체 수
