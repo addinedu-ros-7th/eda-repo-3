@@ -27,13 +27,15 @@ EDA 프로젝트 3조 영끌방지대책위원회
   * 간단 설명
   * 
 ### 04-2. 인구 분야
-* 분야 : [이름](url)
-  * 간단 설명
-  * 
+* 시군구별 이동건수 : [KOSIS](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B26007&vw_cd=MT_ZTITLE)
+  * 가구 크기별 시도간 전입 수
+* 시군구 전입 사유별 이동 건수 : [KOSIS](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B26B21&vw_cd=MT_ZTITLE)
+  * 전입 사유별 시도간 전입 수
+* 서울시 동단위 이동 건수 : [서울시 열린 데이터 광장](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B26B21&vw_cd=MT_ZTITLE)
+  * 동단위 서울시 인구 이동 통계
 ### 04-3. 교육 분야
-* 분야 : [이름](url)
-  * 간단 설명
-  * 
+* 서울시 사업체현황 : [서울시 열린데이터 광장](https://data.seoul.go.kr/dataList/104/S/2/datasetView.do)
+  * 지역별 사교육 업체 수
 ### 04-4. 교통/의료 분야
 * 교통접근성지표 2016-2021 : [국도교통DB](https://www.ktdb.go.kr/www/selectTrnsportTreeView.do?key=32)
   * 교육시설, 의료시설, 판매시설, 광역교통시설(버스터미널, 철도역, 공항)에 대한 접근성  
