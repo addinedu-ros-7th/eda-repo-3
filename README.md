@@ -10,16 +10,11 @@ EDA 프로젝트 3조 영끌방지대책위원회
 </br>
 </br>
 <img src = "https://github.com/user-attachments/assets/32c0c304-d134-4ea7-8e8d-04db5bb6ff38" width = "500"/>
-</br> 최근 한국은행이 이러한 문제의 대책으로 "주요 대학 지역할당제"를 제안했다. 우리조는 이러한 공공기관이나 정부가 추진하는 부동산 정책들이 효과가 있을지 알아보고자 거시경제요인을 제외한 인프라들을 인구, 교육, 교통, 의료 분야로 나누어 자료를 수집하고 분석 및 시각화를 하였다.
+</br> 최근 한국은행이 이러한 문제의 대책으로 "주요 대학 지역할당제"를 제안했다. 우리조는 이러한 공공기관이나 정부가 추진하는 부동산 정책들이 효과가 있을지 알아보고자 거시경제요인을 제외한 인프라들을 인구, 교육, 교통, 의료 분야로 나누어 자료를 수집하고 각 요인들과 아파트 매매가의 연관성을 분석해보았다.
 
 </br></br>
 ***
 ## 02 프로젝트 멤버
-* 팀장 : 김소영 (DB설계, 교통의료분야 자료조사, 분석 및 시각화)
-* 팀원 : 김선웅 (교육분야 자료조사, 분석 및 시각화)
-</br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;김종호 (발표, 인구분야 자료조사, 분석 및 시각화)
-</br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;윤희태 (부동산분야 자료조사, 분석 및 시각화)
-</br>
 
 |역할|이름|담당|
 |-:|:-|:-|
@@ -28,16 +23,19 @@ EDA 프로젝트 3조 영끌방지대책위원회
 |&nbsp;|김종호|발표, 인구분야 자료조사, 분석 및 시각화|
 |&nbsp;|윤희태|부동산분야 자료조사, 분석 및 시각화|
 
-</br></br></br>
+</br></br>
 
 ***
 ## 03 프로젝트 기술
 
-|분류|기술|
+|분류|사용기술|
 |-|-|
-||<img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/Python-Dark.svg" width="50"> <img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/Selenium.svg" width = "50"> <img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/VSCode-Dark.svg" width = "50">|
+|환경||
+|언어|<img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/Python-Dark.svg" width="50"> |
+|IDE|<img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/VSCode-Dark.svg" width = "50">|
+||<img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/Selenium.svg" width = "50">|
 |DB|<img src ="https://github.com/tandpfun/skill-icons/raw/main/icons/AWS-Dark.svg" width = "50"><img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/MySQL-Dark.svg" width = "50"> |
-|협업|<img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/Figma-Dark.svg" width = "50"><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png" width = "50">|
+|협업|<img src = "https://github.com/tandpfun/skill-icons/raw/main/icons/Figma-Dark.svg" width = "50"><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png" width = "48">|
 </br></br></br>
 
 ***
@@ -45,34 +43,44 @@ EDA 프로젝트 3조 영끌방지대책위원회
 
 
 </br>
+
 ### 04-1. 부동산 분야
-* **(크롤링) 아파트 매매 수급 동향 2014-2024, 월별 아파트 평균 매매가 2014-2024** : [한국부동산원 R-ONE](https://www.reb.or.kr/r-one/portal/stat/easyStatPage.do)
+
+* 웹크롤링 / 아파트 매매 수급 동향 2014-2024, 월별 아파트 평균 매매가 2014-2024** : [한국부동산원 R-ONE](https://www.reb.or.kr/r-one/portal/stat/easyStatPage.do)
   * 수도권 및 지방권 월별 아파트 매매에 대한 수급 지수
   * 수도권 및 지방권 월별 아파트 매매가에 대한 평균값
-* **(크롤링) 서울시 동별 연도별 아파트 평균 매매가 2014-2024, 가락동 아파트별 매매가 2014-2024** : [서울시 부동산 정보 광장](https://land.seoul.go.kr:444/land/rtms/rtmsApartment.do)
+  * 
+* 웹크롤링 / 서울시 동별 연도별 아파트 평균 매매가 2014-2024, 가락동 아파트별 매매가 2014-2024** : [서울시 부동산 정보 광장](https://land.seoul.go.kr:444/land/rtms/rtmsApartment.do)
   * 서울시 모든 동의 연도별 아파트 매매가에 대한 평균값
   * 서울시 송파구 가락동에서 10년 동안 매매된 모든 아파트들에 대한 매매가
-* **(표) 연도별 대한민국 물가 상승률 2014-2024** : [KOSIS](https://kosis.kr/statisticsList/statisticsListIndex.do?vwcd=MT_ZTITLE&menuId=M_01_01)
+  * 
+* (표) 연도별 대한민국 물가 상승률 2014-2024** : [KOSIS](https://kosis.kr/statisticsList/statisticsListIndex.do?vwcd=MT_ZTITLE&menuId=M_01_01)
   * 아파트 가격 상승률과 비교하기 위한 물가 상승률
+  * 
  </br></br>
 
 ### 04-2. 인구 분야
-* 시군구별 이동건수 : [KOSIS](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B26007&vw_cd=MT_ZTITLE)
+* CSV / 시군구별 이동건수 : [KOSIS](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B26007&vw_cd=MT_ZTITLE)
   * 가구 크기별 시도간 전입 수
-* 시군구 전입 사유별 이동 건수 : [KOSIS](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B26B21&vw_cd=MT_ZTITLE)
+  * 
+* CSV / 시군구 전입 사유별 이동 건수 : [KOSIS](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B26B21&vw_cd=MT_ZTITLE)
   * 전입 사유별 시도간 전입 수
-* 서울시 동단위 이동 건수 : [서울시 열린 데이터 광장](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B26B21&vw_cd=MT_ZTITLE)
+  * 
+* CSV / 서울시 동단위 이동 건수 : [서울시 열린 데이터 광장](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B26B21&vw_cd=MT_ZTITLE)
   * 동단위 서울시 인구 이동 통계
+  * 
 
 </br></br>
 ### 04-3. 교육 분야
-* 서울시 사업체현황 : [서울시 열린데이터 광장](https://data.seoul.go.kr/dataList/104/S/2/datasetView.do)
+* 웹크롤링 / 서울시 사업체현황 : [서울시 열린데이터 광장](https://data.seoul.go.kr/dataList/104/S/2/datasetView.do)
   * 지역별 사교육 업체 수
+  * 
  
 </br></br>
 ### 04-4. 교통/의료 분야
-* 교통접근성지표 2016-2021 : [국도교통DB](https://www.ktdb.go.kr/www/selectTrnsportTreeView.do?key=32)
-  * 교육시설, 의료시설, 판매시설, 광역교통시설(버스터미널, 철도역, 공항)에 대한 접근성  
+* CSV / 교통접근성지표 2016-2021 : [국도교통DB](https://www.ktdb.go.kr/www/selectTrnsportTreeView.do?key=32)
+  * 교육시설, 의료시설, 판매시설, 광역교통시설(버스터미널, 철도역, 공항)에 대한 접근성
+  * 
 </br></br>
 
 
